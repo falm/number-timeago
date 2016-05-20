@@ -1,0 +1,25 @@
+{
+  "name": "number_time_ago",
+  "version": "0.1.0",
+  "description": "numeric time ago like rails ( 2..days().ago() )",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/falm/number_time_ago.git"
+  },
+  "keywords": [
+    "time",
+    "ago",
+    "numerice",
+    "rails"
+  ],
+  "author": "Jason Hou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/falm/number_time_ago/issues"
+  },
+  "homepage": "https://github.com/falm/number_time_ago#readme"
+}
