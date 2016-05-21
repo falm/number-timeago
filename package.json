@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/falm/number_time_ago/issues"
   },
-  "homepage": "https://github.com/falm/number_time_ago#readme"
+  "homepage": "https://github.com/falm/number_time_ago#readme",
+  "devDependencies": {
+    "chai": "^3.5.0"
+  }
 }
