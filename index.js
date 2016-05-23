@@ -12,9 +12,12 @@ function NumberTimeAgo(){
   }
 
   Number.prototype.hours = function(){
-    return this.minutes() * 60;  
+    return this.minutes() * 60;
   }
 
+  Number.prototype.ago = function(){
+    return new Date(new Date() - this) ;
+  }
 
 }
 
