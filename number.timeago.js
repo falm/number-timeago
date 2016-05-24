@@ -26,6 +26,24 @@ function NumberTimeAgo(){
     }
   });
 
+  Object.defineProperty(Number.prototype, 'weeks', {
+    get: function(){
+      return this.days * 7;
+    }
+  });
+
+  Object.defineProperty(Number.prototype, 'months', {
+    get: function(){
+      return this.days * 30;
+    }
+  });
+
+  Object.defineProperty(Number.prototype, 'years', {
+    get: function(){
+      return this.days * 365.25;
+    }
+  });  
+
   Number.prototype.ago = function(){
     return new Date(new Date() - this) ;
   }
