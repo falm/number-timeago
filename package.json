@@ -4,7 +4,7 @@
   "description": "numeric time ago like rails ( 2..days().ago() )",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
