@@ -1,6 +1,16 @@
 
 
-function NumberTimeAgo(){
+(function (NumberTimeAgo) {
+
+  if (typeof module === 'object' && typeof module.exports === 'object') {
+
+    module.exports = NumberTimeAgo; 
+
+  } else {
+    NumberTimeAgo();
+  }
+
+})(function () {
 
   Object.defineProperty(Number.prototype, 'seconds', {
     get: function(){
@@ -42,14 +52,10 @@ function NumberTimeAgo(){
     get: function(){
       return this.days * 365.25;
     }
-  });  
+  });
 
   Number.prototype.ago = function(){
     return new Date(new Date() - this) ;
   }
 
-}
-
-module.exports = function(){
-  NumberTimeAgo();
-};
+});
