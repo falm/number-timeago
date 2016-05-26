@@ -3,9 +3,9 @@
 (function (NumberTimeAgo) {
 
   if (typeof module === 'object' && typeof module.exports === 'object') {
-
-    module.exports = NumberTimeAgo; 
-
+    module.exports = NumberTimeAgo;
+  } else if (typeof define === 'function' && define.amd) {
+    define(['number_time_ago'], NumberTimeAgo);
   } else {
     NumberTimeAgo();
   }
