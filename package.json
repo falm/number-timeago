@@ -1,7 +1,7 @@
 {
   "name": "number-timeago",
   "version": "0.1.0",
-  "description": "numeric time ago like rails ( 2..days().ago() )",
+  "description": "numeric time ago like rails ( 2..days.ago() )",
   "main": "number.timeago.js",
   "scripts": {
     "test": "node ./node_modules/.bin/mocha test"
