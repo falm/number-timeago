@@ -1,5 +1,5 @@
 {
-  "name": "number_time_ago",
+  "name": "number-timeago",
   "version": "0.1.0",
   "description": "numeric time ago like rails ( 2..days().ago() )",
   "main": "number.timeago.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/falm/number_time_ago.git"
+    "url": "git+https://github.com/falm/number-timeago.git"
   },
   "keywords": [
     "time",
@@ -19,9 +19,9 @@
   "author": "Jason Hou",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/falm/number_time_ago/issues"
+    "url": "https://github.com/falm/number-timeago/issues"
   },
-  "homepage": "https://github.com/falm/number_time_ago#readme",
+  "homepage": "https://github.com/falm/number-timeago#readme",
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^2.4.5"
