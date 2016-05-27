@@ -1,12 +1,24 @@
 # number-timeago [![Build Status](https://travis-ci.org/falm/number-timeago.svg?branch=master)](https://travis-ci.org/falm/number-timeago)
-> A number timeago package support 2..years.ago() method 
+> A number timeago package support 2..years.ago() method
 
 ## Install
 ```bash
 $ npm install number-timeago
 ```
+It's also available on NPMCDN https://npmcdn.com/number-timeago@0.1.1/number.timeago.js
 
 ## Usage
+**Node.js CommonJS**
+```js
+require("number-timeago")();
+```
+**AMD**
+```js
+require(['number-timeago'], function (NumberTimeAgo) {
+  NumberTimeAgo();
+});  
+```
+then
 
 ```js
 // seconds
