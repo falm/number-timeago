@@ -5,7 +5,7 @@
 ```bash
 $ npm install number-timeago
 ```
-It's also available on NPMCDN https://npmcdn.com/number-timeago@0.1.1/number.timeago.js
+It's also available on NPMCDN https://unpkg.com/number-timeago@0.1.1/number.timeago.js
 
 ## Usage
 **Node.js CommonJS**
